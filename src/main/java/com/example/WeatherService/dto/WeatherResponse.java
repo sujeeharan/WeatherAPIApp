@@ -9,6 +9,9 @@ public class WeatherResponse {
         this.wind_speed = wind_speed;
     }
 
+    public WeatherResponse() {
+    }
+
     public double getTemperature_degrees() {
         return temperature_degrees;
     }
